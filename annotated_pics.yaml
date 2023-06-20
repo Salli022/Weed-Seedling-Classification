@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 11
+names: ['Black-grass', 'Charlock', 'Chickweed', 'Cleavers', 'Cranesbill', 'Maize', 'Mayweed', 'Shepard-s Purse', 'SugarBeet', 'Wheat', 'home']
+
+roboflow:
+  workspace: smaran-alli-meksu
+  project: plant-detection-wz8pv
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/smaran-alli-meksu/plant-detection-wz8pv/dataset/1
